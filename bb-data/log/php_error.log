@@ -1,0 +1,25 @@
+[17-Jan-2022 10:30:33 UTC] SQLSTATE[HY000] [2002] Connection timed out
+[17-Jan-2022 10:31:04 UTC] SQLSTATE[HY000] [2002] Connection timed out
+[17-Jan-2022 10:31:29 UTC] Unable to find template "mod_page_frontend-test_assets_bootstrap_vendor_swiper_swiper-bundle.min.js" (looked into: /var/www/html/bb-themes/boxbilling/html, /var/www/html/bb-modules/Page/html_client).
+[17-Jan-2022 10:31:29 UTC] Page /frontend-test/assets/bootstrap/vendor/swiper/swiper-bundle.min.js not found
+[17-Jan-2022 10:31:30 UTC] Unable to find template "mod_page_frontend-test_assets_bootstrap_vendor_swiper_swiper-bundle.min.js" (looked into: /var/www/html/bb-themes/boxbilling/html, /var/www/html/bb-modules/Page/html_client).
+[17-Jan-2022 10:31:30 UTC] Page /frontend-test/assets/bootstrap/vendor/swiper/swiper-bundle.min.js not found
+[17-Jan-2022 10:33:09 UTC] SQLSTATE[HY000] [2002] Connection refused
+[17-Jan-2022 10:33:19 UTC] SQLSTATE[HY000] [2002] Connection refused
+[17-Jan-2022 10:33:19 UTC] SQLSTATE[HY000] [2002] Connection refused
+[17-Jan-2022 10:33:27 UTC] SQLSTATE[HY000] [2002] Connection refused
+[17-Jan-2022 10:33:28 UTC] SQLSTATE[HY000] [2002] Connection refused
+[17-Jan-2022 10:33:29 UTC] SQLSTATE[HY000] [2002] Connection refused
+[17-Jan-2022 10:33:29 UTC] SQLSTATE[HY000] [2002] Connection refused
+[17-Jan-2022 10:33:34 UTC] SQLSTATE[HY000] [2002] Connection refused
+[17-Jan-2022 10:33:34 UTC] SQLSTATE[HY000] [2002] Connection refused
+[17-Jan-2022 10:49:42 UTC] SQLSTATE[HY000] [2002] Connection timed out
+[17-Jan-2022 10:50:12 UTC] SQLSTATE[HY000] [2002] Connection timed out
+[17-Jan-2022 10:50:47 UTC] SQLSTATE[HY000] [2002] Connection timed out
+[17-Jan-2022 10:51:17 UTC] SQLSTATE[HY000] [2002] Connection timed out
+[17-Jan-2022 10:52:54 UTC] Unable to find template "mod_page_frontend-test_assets_bootstrap_vendor_swiper_swiper-bundle.min.js" (looked into: /var/www/html/bb-themes/boxbilling/html, /var/www/html/bb-modules/Page/html_client).
+[17-Jan-2022 10:52:54 UTC] Page /frontend-test/assets/bootstrap/vendor/swiper/swiper-bundle.min.js not found
+[17-Jan-2022 10:52:55 UTC] Unable to find template "mod_page_frontend-test_assets_bootstrap_vendor_swiper_swiper-bundle.min.js" (looked into: /var/www/html/bb-themes/boxbilling/html, /var/www/html/bb-modules/Page/html_client).
+[17-Jan-2022 10:52:55 UTC] Page /frontend-test/assets/bootstrap/vendor/swiper/swiper-bundle.min.js not found
+[17-Jan-2022 11:49:42 UTC] SQLSTATE[HY000] [2002] Connection timed out
+[17-Jan-2022 11:50:12 UTC] SQLSTATE[HY000] [2002] Connection timed out

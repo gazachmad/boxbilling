@@ -1,0 +1,7 @@
+.DS_Store
+
+*/cache/*
+!*/cache/index.html
+
+*/uploads/*
+!*/uploads/index.html
