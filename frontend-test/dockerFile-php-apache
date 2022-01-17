@@ -1,5 +1,5 @@
-FROM php:7.4-apache
+FROM debian:stable-slim
 
-RUN docker-php-ext-install mysqli pdo pdo_mysql gettext
-RUN a2enmod rewrite
-RUN a2enmod headers
+RUN apt-get update && apt-get install -y apache2 php7.4
+
+CMD ["apachectl", "-D", "FOREGROUND"]

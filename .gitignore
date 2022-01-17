@@ -5,3 +5,5 @@
 
 */uploads/*
 !*/uploads/index.html
+
+php_error.log
