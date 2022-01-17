@@ -1,5 +1,9 @@
-FROM php:7.4-apache
+FROM debian:stable-slim
 
-RUN docker-php-ext-install mysqli pdo pdo_mysql gettext
+RUN apt-get update && apt-get install -y apache2 php7.4 php7.4-mysql php7.4-curl php7.4-dom
 RUN a2enmod rewrite
 RUN a2enmod headers
+
+RUN sed -i '/<Directory \/var\/www\/>/,/<\/Directory>/ s/AllowOverride None/AllowOverride All/' /etc/apache2/apache2.conf
+
+CMD ["apachectl", "-D", "FOREGROUND"]

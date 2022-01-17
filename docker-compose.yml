@@ -9,7 +9,7 @@ services:
     restart: unless-stopped
     tty: true
     ports: 
-      - "8004:80"
+      - "80:80"
     volumes:
       - ./:/var/www/html
     networks:
