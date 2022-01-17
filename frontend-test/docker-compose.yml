@@ -1,0 +1,20 @@
+version: "3"
+
+services:
+  webserver:
+    build:
+      context: .
+      dockerfile: dockerFile-php-apache
+    container_name: webserver-landing-page
+    restart: unless-stopped
+    tty: true
+    ports: 
+      - "80:80"
+    volumes:
+      - ./:/var/www/html
+
+  composer:
+    image: composer
+    command: ["composer", "install"]
+    volumes:
+      - ./:/app

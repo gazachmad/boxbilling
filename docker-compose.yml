@@ -1,16 +1,15 @@
-version: '3'
+version: "3"
 
 services:
   webserver:
     build:
       context: .
       dockerfile: dockerFile-php-apache
-    # image: php:7.4-apache
     container_name: webserver-boxbilling
     restart: unless-stopped
     tty: true
     ports: 
-      - '80:80'
+      - "8004:80"
     volumes:
       - ./:/var/www/html
     networks:
@@ -25,7 +24,7 @@ services:
       MYSQL_DATABASE: boxbilling
       MYSQL_ROOT_PASSWORD: root
     ports: 
-      - '3306:3306'
+      - "3306:3306"
     volumes:
       - mysql:/var/lib/mysql/
       - ./docker/mysql/init:/docker-entrypoint-initdb.d
