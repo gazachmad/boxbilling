@@ -21,7 +21,7 @@ Here we will document everything required to run BoxBilling on Docker. Or jump t
 - Create `docker-compose.yml`, this is the server configuration file that will define containers and network configuration for our docker stack.
 - Create `dockerFile-php-apache` for PHP Apache image builder.
 - Now run `docker-compose up` and let docker build images and containers.
-- Once containers up and ready go to (http://localhost/install/).
+- Once containers up and ready go to (http://localhost:8004/install/).
 - On preparation tab, ensure if all prerequisites are labeled with green, check agree and press NEXT.
 - On database tab enter all fields with all of our credetials above.
 - On Administrator tab fill in all fields. For example, our installation values are:
@@ -31,7 +31,7 @@ Here we will document everything required to run BoxBilling on Docker. Or jump t
     Password : UTe3qJMXrHt7yUnd
 ```
 - Installation are done.
-- To check on installation go to (http://localhost/bb-admin/staff/login) for administrator login or to (http://localhost/) to enter client area.
+- To check on installation go to (http://localhost:8004/bb-admin/staff/login) for administrator login or to (http://localhost:8004/) to enter client area.
 
 ### Running Prebuild Installation
 
@@ -41,7 +41,7 @@ Here we will document everything required to run BoxBilling on Docker. Or jump t
 - Copy your own boxbilling SQL data to `docker/mysql/init/01.sql`
 - Go back to `boxbilling` folder and run `docker-compose up -d`
 - First run will a bit long because we are building docker images and seed our initial database. But subsequence run will be fast.
-- Now browse to (http://localhost) to check our BoxBilling app, or to (http://localhost/bb-admin/staff/login) to enter BoxBilling admin console
+- Now browse to (http://localhost:8004/) to check our BoxBilling app, or to (http://localhost:8004/bb-admin/staff/login) to enter BoxBilling admin console
 - For testing please login using this credentials:
 ```
     Email : admin@boxbilling.net
