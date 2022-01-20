@@ -17,7 +17,7 @@ Here we will document everything required to run BoxBilling on Docker. Or jump t
     'user' => 'root',
     'password' => 'root',
 ```
-- Make `docker` folder on the project root, and add `mysql` folders inside. These folders will contains regular config files. Some config files will be copied to docker image and other will be read anytime Docker Compose started up.
+- Make `docker` folder on the project root, and add `mysql` folders inside. This folder will contains regular config files. Some config files will be copied to docker image and other will be read anytime Docker Compose started up.
 - Create `docker-compose.yml`, this is the server configuration file that will define containers and network configuration for our docker stack.
 - Create `dockerFile-php-apache` for PHP Apache image builder.
 - Now run `docker-compose up` and let docker build images and containers.
@@ -37,7 +37,7 @@ Here we will document everything required to run BoxBilling on Docker. Or jump t
 
 - Clone this repository into `boxbilling` folder
 - Make necessary server config changes on `docker` folder
-- Make necessary config changes on `public/bb-config.php` files
+- Make necessary config changes on `bb-config.php` files
 - Copy your own boxbilling SQL data to `docker/mysql/init/01.sql`
 - Go back to `boxbilling` folder and run `docker-compose up -d`
 - First run will a bit long because we are building docker images and seed our initial database. But subsequence run will be fast.
