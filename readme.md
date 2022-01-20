@@ -2,12 +2,12 @@
 
 Here we will document everything required to run BoxBilling on Docker. Or jump to **Running Prebuild Installation** section to get this docker run on your machine.
 
-### Prerequisites
+## Prerequisites
 
 - Docker Desktop or Docker CLI with Docker Compose installed. Follow this [instructions](https://www.docker.com/get-started) to have Docker on your machine.
 - Download [BoxBilling latest release](https://www.boxbilling.org/).
 
-### Step by Step BoxBilling on Docker Creation
+## Step by Step BoxBilling on Docker Creation
 - Make a folder named `boxbilling` and extract downloaded BoxBilling.
 - Copy `bb-config-sample.php` to `bb-config.php`.
 - Replace database configuration with:
@@ -33,7 +33,7 @@ Here we will document everything required to run BoxBilling on Docker. Or jump t
 - Installation are done.
 - To check on installation go to (http://localhost/bb-admin/staff/login) for administrator login or to (http://localhost/) to enter client area.
 
-### Running Prebuild Installation
+## Running Prebuild Installation
 
 - Clone this repository into `boxbilling` folder
 - Make necessary server config changes on `docker` folder
